@@ -1,6 +1,6 @@
 (meditations
   "Sequence comprehensions can bind each element in turn to a symbol"
-  (= __
+  (= (range 6)
      (for [index (range 6)]
        index))
 
